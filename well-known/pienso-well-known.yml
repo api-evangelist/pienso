@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://pienso.com/
+host: https://pienso.com
+note: >-
+  Pienso is a sales-led enterprise no-code AI/ML platform deployed into the
+  customer's own cloud or on-premises environment. It publishes no public
+  developer well-known discovery surface. Every probed path returned a non-200
+  status. Absence recorded as valid data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

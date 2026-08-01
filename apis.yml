@@ -1,8 +1,32 @@
 aid: pienso
 name: Pienso
-description: Pienso is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pienso is an interactive no-code AI and machine learning platform, founded in
+  2016 out of MIT by Karthik Dinakar and Birago Jones and headquartered in the
+  Washington, DC / Arlington, VA area. It lets subject-matter experts explore,
+  train, fingerprint, annotate, and deploy deep-learning and large language
+  models over unstructured text — customer calls, emails, documents, and social
+  content — through a point-and-click interface with no coding required. Product
+  capabilities include Ingest, Train & Fingerprint, Annotate, Dataset Analysis,
+  and PromptFactory, applied to use cases such as customer insight, content
+  moderation, document intelligence, and risk detection. Pienso is deployed into
+  the customer's own environment — AWS, Azure, GCP, Gcore, or on-premises — so
+  data never leaves the customer's control, and the company publishes no public
+  developer API, SDK, or documentation surface; integration is sales-led and the
+  platform runs as a self-contained system. Backed by Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/pienso/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/4k7oyo92/production/d11f5be9ad3a1341f5d339a550f62fd1a7b8d6df-1200x630.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Large Language Models
+- Natural Language Processing
+- No-Code
+- Document Intelligence
+- Data Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.pienso.com
+  url: https://pienso.com
+- type: Blog
+  url: https://pienso.com/blog
+- type: TermsOfService
+  url: https://pienso.com/legal-terms
+- type: PrivacyPolicy
+  url: https://pienso.com/privacy-policy
+- type: Compliance
+  url: https://pienso.com/platform/security
+- type: Conformance
+  url: conformance/pienso-conformance.yml
+- type: DomainSecurity
+  url: security/pienso-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pienso-us/
+- type: Twitter
+  url: https://x.com/Pienso_AI
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
