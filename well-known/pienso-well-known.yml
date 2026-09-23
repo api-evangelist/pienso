@@ -2,12 +2,12 @@ generated: '2026-07-20'
 method: searched
 source: https://pienso.com/
 host: https://pienso.com
-note: >-
-  Pienso is a sales-led enterprise no-code AI/ML platform deployed into the
-  customer's own cloud or on-premises environment. It publishes no public
-  developer well-known discovery surface. Every probed path returned a non-200
-  status. Absence recorded as valid data.
-documents:
+note: Pienso is a sales-led enterprise no-code AI/ML platform deployed into the customer's own cloud or
+  on-premises environment. It publishes no public developer well-known discovery surface. Every probed
+  path returned a non-200 status. Absence recorded as valid data.
+hosts:
+- host: https://pienso.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -18,3 +18,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
