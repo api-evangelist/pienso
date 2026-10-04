@@ -50,7 +50,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Deep Learning
 - LLM
 - Natural Language Processing
@@ -67,6 +67,7 @@ tags_raw:
 - No-Code
 - Document Intelligence
 - Data Analytics
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
